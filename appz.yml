@@ -1,13 +1,17 @@
 app:
     name: angular-nodejs
     code: angularnodejs
-    notify: appzdev@cloudbourne.co
+    notify: aborra@ecloudcontrol.com
+    
 build:
     version: 0.1
     env: DEV
+    args:
+      WORK_DIR: /src/myapp
     build_file: none
     output_files: output/*.zip
     image_template: nodeangular-14.17
+    
 deploy:
     context: alpha/DEV
     replicas: 1
@@ -15,5 +19,4 @@ deploy:
     - 3080
     
 properties:
-  
     revision: 21
