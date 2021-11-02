@@ -7,7 +7,7 @@ build:
     version: 0.1
     env: DEV
     args:
-      WORK_DIR: /src/myapp
+      WORK_DIR: /myapp
     build_file: none
     output_files: output/*.zip
     image_template: nodeangular-14.17
