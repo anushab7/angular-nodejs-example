@@ -13,7 +13,7 @@ build:
     image_template: nodeangular-14.17
     
 deploy:
-    context: alpha/DEV
+    context: anushab7/DEV
     replicas: 1
     port:
     - 3080
