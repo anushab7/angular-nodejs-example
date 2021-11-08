@@ -16,7 +16,7 @@ deploy:
     context: anushab7/DEV
     replicas: 1
     port:
-    - 4200
+    - 3080
     
 properties:
     revision: 22
